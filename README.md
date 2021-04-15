@@ -24,3 +24,9 @@ Basic system for managing a library on Java. It's a school project that I did fo
     <img src="https://i.ibb.co/87fjj12/Imagen8.png"></img>
   </kbd>
 </p>
+
+## Getting Started
+Import the java project in your preferred IDE and import the database. Just edit the class `Connect.class` with your database connection credentials.
+
+### Important
+Consider download the [mysql-connector-java-5.1.13](http://www.java2s.com/Code/JarDownload/mysql/mysql-connector-java-5.1.13.jar.zip) and import it to the project before compiling.
