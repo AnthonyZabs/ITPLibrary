@@ -2,14 +2,13 @@
 Basic system for managing a library on Java. It's a school project that I did for Object Oriented Programming. Programmed in Java.
 
 ## Features
-✔️ User and session system.\
+✔️ Graphic interface with Material Design style.\
 ✔️ Management of Leagues, Tournaments, Journeys, Teams, Coaches, Referees and Players.\
-✔️ Automatic matchmaking.\
-✔️ Match tracking (goals, fouls, changes and comments).\
-✔️ Statistical tables (Goals Table and General Table).\
-✔️ Team templates and player profiles.\
-✔️ Generation of Journeys automated (depending on the results of the previous matches taking into visit away goals).\
-✔️ All this is manageable from an administrative panel (with the option of adding users to the system).
+✔️ MySQL database connection.\
+✔️ Management of books, loans and returns.\
+✔️ Penalties for late returns.\
+✔️ Movement logs.\
+✔️ Lookup tables.
 
 ## Previews
 
