@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.sql.Connection;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Date;
 import javax.swing.JPanel;
@@ -22,13 +23,13 @@ public class Dashboard extends javax.swing.JFrame {
         conn = new Connect();
         reg = conn.getConnection();
         
-        Date now = new Date();
-        int year = now.getYear() + 1900;
-        int dia = now.getDay()+6;
-        int month = now.getMonth();
+        LocalDate now = LocalDate.now();
+        int year = now.getYear();
+        int dia = now.getDayOfMonth();
+        int month = now.getMonthValue();
         String[] meses = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"," ;Septiembre"
             ,"Octubre","Noviembre","Diciemrbre"};
-        fecha.setText("Hoy es "+dia+" de "+meses[month]+" de "+year);
+        fecha.setText("Hoy es "+dia+" de "+meses[month - 1]+" de "+year);
         
         Principal p1 = new Principal();
         p1.setSize(750, 430);
