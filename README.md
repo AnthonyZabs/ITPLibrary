@@ -12,9 +12,7 @@ Basic system for managing a library on Java using Look And Feel and DAO Pattern.
 
 ## Video Preview
 
-<p align="center">
 https://youtu.be/VXhqMeXLPU8
-</p>
 
 ## Getting Started
 Import the java project in your preferred IDE and import the database. Just edit the class `Database.java` with your database connection credentials.
