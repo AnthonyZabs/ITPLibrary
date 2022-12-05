@@ -13,7 +13,7 @@ Basic system for managing a library on Java using Look And Feel and DAO Pattern.
 ## Video Preview
 
 <p align="center">
-<video src='https://youtu.be/VXhqMeXLPU8' width=180/>
+https://youtu.be/VXhqMeXLPU8
 </p>
 
 ## Getting Started
